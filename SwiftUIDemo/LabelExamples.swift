@@ -21,22 +21,23 @@ struct MyCustomLabelStyle : LabelStyle {
     }
 }
 
-
 struct LabelExamples: View {
     var body: some View {
         VStack(spacing:20) {
-            Label("Something", systemImage: "globe")
+            Label("Books", systemImage: "books.vertical.fill")
             
-            
-            Label(title: { Button("Say Hello!") { print("hello world!")} },
+            // You can use whatever views you like for the lable and icon:
+            Label(title: { Button("Print Greeting") { print("hello world!")} },
                   icon: { Circle().frame(width: 20, height: 20).foregroundColor(.yellow) })
             
             // Apply label styles:
-            Label("Something", systemImage: "globe")
+            Label("Title Only", systemImage: "globe")
                 .labelStyle(TitleOnlyLabelStyle())
-            Label("Something", systemImage: "globe")
+            Label("No title", systemImage: "eyes")
                 .labelStyle(IconOnlyLabelStyle())
-            Label("Something", systemImage: "globe")
+            
+            // Use a custum lable style:
+            Label("Website", systemImage: "globe")
                 .labelStyle(MyCustomLabelStyle())
         }
     }

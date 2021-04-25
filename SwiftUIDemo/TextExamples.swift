@@ -15,10 +15,10 @@ struct SimpleTextExample: View {
     }
 }
 
-struct UnderlinedExample: View {
+struct ItalicExample: View {
     var body: some View {
-        Text("Underlined")
-           // .underline()
+        Text("Italic")
+           .italic()
     }
 }
 
@@ -80,6 +80,7 @@ struct TextExamples: View {
             SimpleTextExample()
             KerningExample()
             AddTextExample()
+            ItalicExample()
             CustomTextExample()
             
             NavigationLink("See all available fonts", destination:AllFontsListExample())
