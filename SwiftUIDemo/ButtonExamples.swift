@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 struct TextButtonExample: View {
     var body: some View {
         Button("Touch Me!") {
@@ -44,15 +43,6 @@ struct BigButtonStyle: ButtonStyle {
 
 struct ButtonStyleExample: View {
     var body: some View {
-        Button("Big Button!") {}
-            .buttonStyle(BigButtonStyle())
-            .padding()
-    }
-}
-
-struct ButtonStyleExample2: View {
-    var body: some View {
-        
         Button(action:{ print("Very big!") }){
             Text("Big Button!")
         }
@@ -61,15 +51,13 @@ struct ButtonStyleExample2: View {
     }
 }
 
-
-
 struct ButtonExamples: View {
     var body: some View {
         VStack(spacing:20) {
             TextButtonExample()
             ImageButtonExample()
             ButtonStyleExample()
-            ButtonStyleExample2()
+            
         }
     }
 }

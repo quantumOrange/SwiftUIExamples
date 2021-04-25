@@ -14,7 +14,7 @@ struct NavigationViewExample: View {
                 NavigationLink("Text Examples", destination: TextExamples())
                 NavigationLink("Button Examples", destination: ButtonExamples())
                 NavigationLink(
-                 destination:LabelExample()){
+                 destination:LabelExamples()){
                     Label("Label Examples", systemImage: "bookmark")
                 }
                 NavigationLink("Shape Examples", destination: ShapeExamples())

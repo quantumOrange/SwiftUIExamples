@@ -19,7 +19,7 @@
 		54C058CC262C92AC002A27C2 /* GeometryReaderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C058CB262C92AC002A27C2 /* GeometryReaderExample.swift */; };
 		54DA7F59262C31AC004FC489 /* Cartoon Blocks Christmas.otf in Resources */ = {isa = PBXBuildFile; fileRef = 54DA7F58262C3160004FC489 /* Cartoon Blocks Christmas.otf */; };
 		54DED99D25EEBB610084F841 /* TextExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DED99C25EEBB610084F841 /* TextExamples.swift */; };
-		54DED9A225EEBB740084F841 /* LabelExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DED9A125EEBB740084F841 /* LabelExample.swift */; };
+		54DED9A225EEBB740084F841 /* LabelExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DED9A125EEBB740084F841 /* LabelExamples.swift */; };
 		54DED9A725EEBB980084F841 /* ButtonExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DED9A625EEBB980084F841 /* ButtonExamples.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,7 +59,7 @@
 		54C058CB262C92AC002A27C2 /* GeometryReaderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderExample.swift; sourceTree = "<group>"; };
 		54DA7F58262C3160004FC489 /* Cartoon Blocks Christmas.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cartoon Blocks Christmas.otf"; sourceTree = "<group>"; };
 		54DED99C25EEBB610084F841 /* TextExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExamples.swift; sourceTree = "<group>"; };
-		54DED9A125EEBB740084F841 /* LabelExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelExample.swift; sourceTree = "<group>"; };
+		54DED9A125EEBB740084F841 /* LabelExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelExamples.swift; sourceTree = "<group>"; };
 		54DED9A625EEBB980084F841 /* ButtonExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExamples.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,7 +117,7 @@
 				54C058CB262C92AC002A27C2 /* GeometryReaderExample.swift */,
 				54DED99C25EEBB610084F841 /* TextExamples.swift */,
 				54C058C1262C81CE002A27C2 /* ListExample.swift */,
-				54DED9A125EEBB740084F841 /* LabelExample.swift */,
+				54DED9A125EEBB740084F841 /* LabelExamples.swift */,
 				54DED9A625EEBB980084F841 /* ButtonExamples.swift */,
 				54ABEF9126349C3800E5F5A5 /* ShapeExamples.swift */,
 				544891B525EE3A51004FE6FE /* Info.plist */,
@@ -297,7 +297,7 @@
 				544891AF25EE3A50004FE6FE /* ContentView.swift in Sources */,
 				54C058C7262C9228002A27C2 /* NavigationViewExample.swift in Sources */,
 				54ABEF9226349C3800E5F5A5 /* ShapeExamples.swift in Sources */,
-				54DED9A225EEBB740084F841 /* LabelExample.swift in Sources */,
+				54DED9A225EEBB740084F841 /* LabelExamples.swift in Sources */,
 				54DED99D25EEBB610084F841 /* TextExamples.swift in Sources */,
 				54C058C2262C81CE002A27C2 /* ListExample.swift in Sources */,
 				544891AD25EE3A50004FE6FE /* SwiftUIDemoApp.swift in Sources */,

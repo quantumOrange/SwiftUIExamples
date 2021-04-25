@@ -15,19 +15,52 @@ struct SimpleTextExample: View {
     }
 }
 
-struct KerningExample: View {
+struct UnderlinedExample: View {
     var body: some View {
-        Text("Spaced Out")
-            .kerning(10.0)
+        Text("Underlined")
+           // .underline()
     }
 }
 
 struct AddTextExample:View {
     var body: some View {
         // Text views can be added together!
-        Text("Hello ").foregroundColor(Color.yellow) + Text("World!").foregroundColor(Color.red).bold()
+        
+        Text("Strikethrough ")
+            .strikethrough()
+            .foregroundColor(Color.red)
+            
+        + Text("offset")
+            .baselineOffset(10.0)
+            .foregroundColor(Color.yellow)
+            
+        +  Text(" underlined")
+            .underline()
+                
     }
 }
+
+
+
+struct StrikethroughExample: View {
+    var body: some View {
+        Text("Strikethrough ")
+            .strikethrough()
+            
+        +  Text("Underlined ")
+            .underline()
+    }
+}
+
+struct KerningExample: View {
+    var body: some View {
+        //Kerning controls the spacing between letters
+        Text("Spaced Out")
+            .kerning(10.0)
+    }
+}
+
+
 
 // To add a custom font to your app
 //1) Add the font file to your project and make sure that it is a target member of your app.

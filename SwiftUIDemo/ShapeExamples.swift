@@ -11,6 +11,11 @@ struct Star:Shape {
     let numberOfPoints:Int
     let innerRadiusRatio:CGFloat
     
+    init(numberOfPoints:Int) {
+        innerRadiusRatio = 0.5 * cos(.pi / CGFloat(numberOfPoints))
+        self.numberOfPoints = numberOfPoints
+    }
+    
     private func starVertices(numberOfPoints:Int, in rect:CGRect) -> [CGPoint] {
         let radius = 0.5 * min(rect.size.width,rect.size.height)
         let center = CGPoint(x: rect.midX,y: rect.midY)
@@ -42,10 +47,10 @@ struct Star:Shape {
     }
 }
 
-
 struct ShapeExamples: View {
     var body: some View {
-        Star(numberOfPoints:5, innerRadiusRatio: 1/2)
+        Star(numberOfPoints:6)
+            .foregroundColor(.blue)
     }
 }
 
